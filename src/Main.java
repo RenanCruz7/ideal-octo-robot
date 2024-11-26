@@ -1,5 +1,8 @@
+import Arrays.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Arrays solution = new Arrays();
+        System.out.println(solution.reverseWords2("Let's take LeetCode contest"));
     }
 }
