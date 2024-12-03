@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Arrays {
+public class TwoPointer {
     public String reverseWords(String s) {
         String[] words = s.split(" ");
         StringBuilder result = new StringBuilder();

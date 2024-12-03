@@ -1,8 +1,8 @@
-import Arrays.Arrays;
+import Arrays.TwoPointer;
 
 public class Main {
     public static void main(String[] args) {
-        Arrays solution = new Arrays();
+        TwoPointer solution = new TwoPointer();
         System.out.println(solution.reverseWords2("Let's take LeetCode contest"));
     }
 }
