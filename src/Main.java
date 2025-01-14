@@ -1,18 +1,16 @@
 import LinkedList.LinkedList.DoublyLinkedList;
 import LinkedList.LinkedList.Node;
+import Sorting.Bubblesort;
 
 public class Main {
     public static void main(String[] args) {
-        DoublyLinkedList dll = new DoublyLinkedList();
-        dll.add_to_front(3);
-        dll.add_to_front(2);
-        dll.add_to_front(1);
-        dll.add_to_back(4);
-        dll.add_to_back(5);
-
-        System.out.println(dll.remove_from_front()); // removes 1
-        System.out.println(dll.remove_from_back()); // removes 5
-
+        Bubblesort bubblesort = new Bubblesort();
+        int[] arr = {64, 34, 25, 12, 22, 11, 90};
+        bubblesort.bubbleSort(arr);
+        System.out.println("Sorted array");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
 
     }
 }
